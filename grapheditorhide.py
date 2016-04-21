@@ -30,7 +30,7 @@ def hidechannel(context, channelname, additive):
 class GraphHideChannel(bpy.types.Operator):
     """Tooltip"""
     bl_idname = "graph.hidechannel"
-    bl_label = "Hide Loc in graph editor"
+    bl_label = "Hide channel in graph editor"
     bl_options = {'REGISTER', 'UNDO'}
     
     channelname = bpy.props.StringProperty(name="Channel Filter", default="none")
